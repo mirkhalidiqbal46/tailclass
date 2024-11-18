@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+
+
+<body class="bg-gray-100 p-8 flex justify-center items-center min-h-screen">
+    <!-- Card Container -->
+    <div class="w-full max-w-2xl bg-white shadow-lg shadow-teal-400 rounded-lg overflow-hidden">
+        <!-- Black Header -->
+        <div class="bg-black p-2 flex flex-col justify-between items-center">
+            <h2 class="text-2xl font-mono text-white">Retro Shoe</h2>
+            <div class="flex items-center gap-2">
+                <span class="text-xl font-mono text-white">$89.00</span>
+                <span class="text-teal-400 font-mono">IN STOCK</span>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex px-8 pb-10 gap-8 relative">
+            <!-- Image Section -->
+            <div class="w-3/5 h-full -mt-8 ">
+                <div class="relative">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRKK_iQMBRWdZNuqvsQ7UfktgwxPJCJoVOrw&s"
+                        alt="Retro Shoe"
+                        class="w-full  shadow-lg shadow-teal-400 border-2 border-teal-400 translate-x-6 translate-y-1 relative z-10">
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="p-5">
+                <!-- Sizes -->
+                <div class="flex items-center gap-4 mt-4">
+                    <button
+                        class="px-6 py-3 bg-black text-white border-2 border-teal-800 text-sm font-semibold shadow-lg shadow-teal-400">XS</button>
+                    <button class="px-6 py-3  text-sm font-semibold">S</button>
+                    <button class="px-6 py-3  text-sm font-semibold">M</button>
+                    <button class="px-6 py-3  text-sm font-semibold">L</button>
+                    <button class="px-6 py-3  text-sm font-semibold">XL</button>
+                </div>
+
+                <!-- Buttons -->
+                <div class="flex items-center justify-between gap-4 mt-6">
+                    <button
+                        class="w-1/2 px-6 py-3 bg-teal-400 text-white text-sm font-bold border-2 border-black shadow-lg shadow-teal-400 hover:bg-teal-500">BUY
+                        NOW</button>
+                    <button
+                        class="w-1/2 px-6 py-3 bg-white text-black text-sm font-bold border-0 border-black shadow-lg hover:bg-gray-100">ADD
+                        TO BAG</button>
+                    <button class="text-black text-xl"><i class="fa fa-heart"></i></button>
+                </div>
+
+                <!-- Footer -->
+                <p class="text-sm text-gray-500 mt-4 text-center">Free shipping on all continental US orders.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
